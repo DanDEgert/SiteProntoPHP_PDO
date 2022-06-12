@@ -1,0 +1,378 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>DDE.XP-Blog</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- ThemeFisher Icon -->
+    <link rel="stylesheet" href="plugins/themefisher-fonts/themefisher-fonts.css">
+    <!-- Light Box -->
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map_canvas {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+    </style>
+    <script src="plugins/modernizr.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <!-- Loader to display before content Load-->
+  <div class="loading">
+
+    <!-- <img src="img/loader.gif" alt=""> -->
+
+    <div class="windows8 loading-position">
+      <div class="wBall" id="wBall_1">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_2">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_3">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_4">
+        <div class="wInnerBall"></div>
+      </div>
+      <div class="wBall" id="wBall_5">
+        <div class="wInnerBall"></div>
+      </div>
+    </div>
+  </div> 
+
+
+<section class="page-header services-header" data-parallax="scroll" data-image-src="images/header/blog-folding-img.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">Nosso Blog. <br> Compartilhamos Conquistas e EXPeriências.</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Navigation -section
+  =========================-->
+<nav class="navbar navbar-fixed-top navigation" >
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="index.html">
+        <img src="images/DDE.XP logo.jpeg" alt="">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Serviços</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="btn btn-default btn-main" href="login/login.php" role="button">Login</a></li>
+      <li><a class="btn btn-default btn-main" href="cadastroUsuario/cadastro.php" role="button">Cadastrar</a></li>
+      <li><a class="btn btn-default btn-main" href="cadastroUsuario/consulta.php" style=background-color:null>Consultar</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+  
+  <!-- Blog Sections 
+  =========================-->
+  <section class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="title text-center">
+          <h2>Nosso Blog</h2>
+        </div>
+        <div class="col-md-9">
+          <!-- Blog Left Sections 
+          =========================-->
+
+            <!-- If you use to 1 by 1 section to blog content left or right use class
+              blog content left is default but you use blog content right side 
+              you mast use class="blog-content-right" class with blog-list-section div
+             -->
+            <!-- Blog List Only Image
+            ========================= -->
+            <div class="blog-list-section blog-content-right row">
+              <div class="col-md-9 blog-content-area">
+                <div class="blog-img">
+                  <img class="img-responsive" src="images/blog/tutor-mes.jpg" alt="">      
+                </div>
+                <div class="blog-content">
+                  <a href="blog-single.html"><h4 class="blog-title">Momento de reconhecimento e felicidade! <br /> É anunciado o Tutor do Mês!!!</h4></a>
+                  <div class="meta">
+                    <div class="date">
+                      <p>25<sup> </sup>Fev 2022</p>
+                    </div>
+                    <div class="author">
+                      <p>Por DDE</p>
+                    </div>
+                  </div>
+                  <p class="blog-decisions">Sabe quando você está resolvendo as questões do cotidiano, e de repente recebe uma notícia que muda totalmente a vibe do dia, mas para melhor?</p>
+                  <a class="btn btn-default th-btn solid-btn" href="blog-single.html" role="button">Leia Mais <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>  
+
+            <!-- Blog List Slider Image
+            ========================= -->
+            <div class="blog-list-section blog-content-left row">
+              <div class="col-md-9 blog-content-area">
+                <!-- Blog slider -->
+                <div id="blog-slider" class="blog-slider">
+                  <div class="item">
+                    <div class="blog-img">
+                      <img class="img-responsive" src="images/blog/dica1.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="blog-img">
+                      <img class="img-responsive" src="images/blog/dica2.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="blog-img">
+                      <img class="img-responsive" src="images/blog/dica3.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="blog-content">
+                  <a href="blog-single.html"><h4 class="blog-title">Está se preparando pro ENEM? <br /> Então siga essa dicas!!!</h4></a>
+                  <div class="meta">
+                    <div class="date">
+                      <p>4<sup> </sup>Abr 2022</p>
+                    </div>
+                    <div class="author">
+                      <p>Por DDE</p>
+                    </div>
+                  </div>
+                  <p class="blog-description">Um dos períodos mais importantes da vida de um adolescente está chegando. Isso significa que está na hora de revisar pro provão!</p>
+                  <a class="btn btn-default th-btn solid-btn" href="blog-single.html" role="button">Leia Mais <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>  
+            
+              <!-- Blog List Video Image
+              ========================= -->
+            <div class="blog-list-section row">
+              <div class="col-md-9 blog-content-area">
+                <div class="video-section">
+                  <img class="img-responsive" src="images/blog/evento.jpg" alt="">
+                  <div class="video-overlay">
+                    <a id="th-video" class="th-video" href="blog-single.html"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+                <div class="blog-content">
+                  <a href="blog-single.html"><h4 class="blog-title">Momentos de descontração bem raros! <br /> Gravação em estúdio é tudo isso sim!</h4></a>
+                  <div class="meta">
+                    <div class="date">
+                      <p>7<sup> </sup>Dez 2020</p>
+                    </div>
+                    <div class="author">
+                      <p>Por DDE</p>
+                    </div>
+                  </div>
+                  <p class="blog-decisions">Já recebeu um telefonema de um amigo te chamndo pra um rolê, aí você descobre que o rolê é uma gravação num estúdio profissional? Pois é... bem comum, né?</p>
+                  <a class="btn btn-default th-btn solid-btn" href="blog-single.html" role="button">Leia Mais <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+
+          <!-- See All Post -->
+          <div class="col-md-12">
+            <div class="see-all-post text-center">
+              <a class="btn btn-default th-btn solid-btn" href="#" role="button">Todas as Postagens <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <!-- Blog Right Sections 
+          =========================-->
+          	<div class="blog-sidbar">
+		<div class="search widgets">
+			<form class="form-inline">
+			  <div class="form-group search-input">
+			    <input type="text" class="form-control" placeholder="Procurar ...">
+			  </div>
+			  <button type="submit" class="btn btn-default tf-search-btn"><i class="tf-search"></i></button>
+			</form>
+		</div>
+		<div class="categories widgets">
+			<div class="list-group text-center">
+				<div class="list-group-item active"> Categorias </div>
+				<a href="#" class="list-group-item">GoStudent</a>
+				<a href="#" class="list-group-item">Aulas Particulares</a>
+				<a href="#" class="list-group-item">Relatos</a>
+				<a href="#" class="list-group-item">Eventos</a>
+				<a href="#" class="list-group-item">Dicas Gerais</a>
+				<a href="#" class="list-group-item">O que estamos Planejando?</a>
+				<a href="#" class="list-group-item">Entretenimento</a>
+			</div>
+		</div>
+		<div class="related-post widgets">
+			<div class="list-group">
+				<div class="list-group-item active text-center">
+				Posts Relacionados
+				</div>
+				<a href="#" class="list-group-item">
+					<div class="media">
+					  <div class="media-left media-middle"><p class="post-count">1</p></div>
+					  <div class="media-body">
+					    <p>Curiosidades Físicas!</p>
+					  </div>
+					</div>
+				</a>
+				<a href="#" class="list-group-item">
+					<div class="media">
+					  <div class="media-left media-middle"><p class="post-count">2</p></div>
+					  <div class="media-body">
+					    <p>Como parar pra entender uma matéria?.</p>
+					  </div>
+					</div>
+				</a>
+				<a href="#" class="list-group-item">
+					<div class="media">
+					  <div class="media-left media-middle"><p class="post-count">3</p></div>
+					  <div class="media-body">
+					    <p>A importância da Gameficação.</p>
+					  </div>
+					</div>
+				</a>
+				<a href="#" class="list-group-item">
+					<div class="media">
+					  <div class="media-left media-middle"><p class="post-count">4</p></div>
+					  <div class="media-body">
+					    <p>Teorias da Música</p>
+					  </div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="col-md-4">
+                            <!-- footer About section
+                            ========================== -->
+                            <div class="footer-about">
+                                <h3 class="footer-title">Sobre</h3>
+                                <p>Há 13 anos desenvolvendo metodologias personalizadas. <br>
+                                    Modalidades de ensino particular: presencial e a distância.<br> Ensino a distância através da plataforma Zoom Cloud Meetings.<br>
+                                                       </div>
+                        </div
+                        <div class="col-md-4"
+                            <!-- footer Address sectio
+                            ========================== -->
+                            <div class="footer-address">
+                                <h3 class="footer-title">Endereço</h3>
+                                <p>Rio de Janeiro, RJ, Brasil.</p>
+                                <p class="contact-address">
+                                    Contate-nos : <a href="tel:+5521993903875">+55 (21) 99390-3875 </a><br>
+                                    Nos escreva : <a href="mailto:estudde.xp@gmail.com">estudde.xp@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- footer Media link section
+                            ========================== -->
+                            <div class="footer-social-media">
+                                <h3 class="footer-title">Contatos</h3>
+                                <ul class="footer-media-link">
+                                    <li><a href="https://l.wl.co/l?u=https%3A%2F%2Fwww.facebook.com%2FDDExp-103143964858655%2F"><i class="tf-ion-social-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="tf-ion-social-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/daniel-d-3344b310a/"><i class="tf-ion-social-linkedin-outline"
+                                                aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.gostudent.org/br/referrals?referral_id=1b6fdb6c-da6b-4133-b8fa-28edbff38b75"><i class="tf-ion-social-google-outline" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li><a href="https://l.wl.co/l?u=https%3A%2F%2Fwww.instagram.com%2Fdde.xp%2F%3Ffbclid%3DIwAR1hDnGbcm_WkgElEjN73RkEv125OHJO-M1kDjpc09ge4Dbyr0OeCe46sd0"><i class="tf-ion-social-instagram-outline"
+                                                aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-nav text-center">
+                        <div class="col-md-12">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="services.html">Serviços</a></li>
+                                <li><a href="portfolio.html">Portfólio</a></li>
+                                <li><a href="blog.html">Sobre Nós</a></li>
+                                <li><a href="contact.html">Contato</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <p>&copy; 2013-2022 All rights reserved. <br>
+                                    Design and Developed By <a href="https://themefisher.com">DDE.XP Group</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="plugins/jquery.min.js"></script>
+
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+    <!-- Lightbox -->
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Parallax -->
+    <script src="plugins/parallax.min.js"></script>
+    <!-- Video -->
+    <script src="plugins/jquery.vide.js"></script>
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script src="plugins/google-map/gmap.js"></script>
+
+    <script src="js/script.js"></script>
+    </body>
+
+    </html>
